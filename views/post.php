@@ -1,18 +1,3 @@
-<?php
-
-$post_id = isset($_GET['id']) ? $_GET['id'] : -1;
-
-//retrieve data from db
-$q = mysqli_query($db,
- "SELECT *,
-    DATE_FORMAT(post_created, '%d,%m,%Y %H:%i')post_created
-  FROM posts
-    NATURAL JOIN author
-  WHERE post_id = $post_id ");
-$post = mysqli_fetch_assoc($q);
-
-?>
-
 <!DOCTYPE html>
 <html>
 <!-- Set your background image for this header on the line below. -->

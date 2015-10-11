@@ -1,12 +1,4 @@
-<?php
-//retrieve data from db
-$q = mysqli_query($db, "SELECT * FROM posts NATURAL JOIN author");
-while ($row = mysqli_fetch_assoc($q)) {
-    $posts[] = $row;
-};
-?>
 
-<!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
 <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
     <div class="container">
