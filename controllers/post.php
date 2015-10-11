@@ -11,5 +11,5 @@ $q = mysqli_query($db, "
     NATURAL JOIN author
   WHERE post_id=$post_id");
 
-$post = mysqli_fetch_assoc($q);
 
+$post = mysqli_fetch_assoc($q);

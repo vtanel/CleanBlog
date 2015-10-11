@@ -27,7 +27,6 @@
         </div>
     </div>
 </article>
-
 <hr>
 </html>
 
