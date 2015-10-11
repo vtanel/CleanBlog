@@ -15,4 +15,5 @@ $post = mysqli_fetch_assoc($q);
 // Overwrite from sample page to post
 $page = 'post';
 
+
 ?>

@@ -12,3 +12,4 @@ $q = mysqli_query($db, "
   WHERE post_id=$post_id");
 
 $post = mysqli_fetch_assoc($q);
+
