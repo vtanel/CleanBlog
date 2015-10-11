@@ -5,7 +5,7 @@
                             <div class="page-heading">
                                     <h1>Error 404</h1>
                                     <hr class="small">
-                                    <span class="subheading"><a href="?">Go to main page</a></span>
+                                    <span class="subheading"><a href="?">Click here to go to main page</a></span>
                                 </div>
                         </div>
                 </div>
