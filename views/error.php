@@ -13,6 +13,13 @@
 </header>
 <div class="container">
         <p>
-                Error message:adsöndj'äöööüäsdcsd.
+            error message miks on error? ah? miks?!?!?
         </p>
+
     </div>
+
+    </div>
+<?php
+
+?>
+
